@@ -118,3 +118,89 @@ body{
 .botao-comprar:hover{
     background-color: #9eacf1;
 }
+
+.area-inscricao{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;/*Alinha o topo de todas as colunas*/
+}
+
+.coluna-form{
+    flex: 1;/*Faz o formulário crescer proporcionalmente*/
+    min-width: 320px;
+    background-color: #01188d;
+    padding: 30px;
+    border-radius: 10px;/*Cantos arredondados*/
+    box-shadow: 0 4px 12px #01188d;
+}
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.coluna-form label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #39dafe;
+}
+.coluna-form input[type="text"],
+.coluna-form input[type="password"],
+.coluna-form input[type="email"],
+.coluna-form input[type="date"],
+.coluna-form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #00d0ff;
+    border-radius: 5px;
+    color: #021781;
+    font-size: 14px;
+}
+.btn-enviar{
+    background-color: #00d0ff;
+    color: #01188d;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*Transforma a seta do mouse em uma mãozinha*/
+}
+.btn-enviar:hover{
+    background-color: #9eacf1;
+}
+.btn-limpar{
+    background-color: #00d0ff;
+    color: #01188d;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*Transforma a seta do mouse em uma mãozinha*/
+    margin-left: 10px;
+}
+.btn-limpar:hover{
+    background-color: #9eacf1;
+}
+.table{
+    background-color: #01188d;
+    border-radius: 10px;
+    max-width: 440px;
+}
+.filmes{
+    box-shadow: 0 4px 12px #39dafe;
+}
+.filme_homem_aranha{
+    box-shadow: 0 4px 12px #39dafe;
+}
+.filme_a_odisseia{
+    box-shadow: 0 4px 12px #39dafe;
+}
+.filme_toy_story_5{
+    box-shadow: 0 4px 12px #39dafe;
+}
+.filme_michael_jackson{
+    box-shadow: 0 4px 12px #39dafe;
+}
